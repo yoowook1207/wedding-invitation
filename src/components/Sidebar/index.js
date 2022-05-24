@@ -24,11 +24,8 @@ const Sidebar = ({isOpen, toggle}) => {
                 <SidebarLink to ='rsvp' onClick={toggle}>
                     RSVP
                 </SidebarLink>
-                <SidebarLink to ='registry' onClick={toggle}>
-                    Registry
-                </SidebarLink>
-                <SidebarLink to ='contact' onClick={toggle}>
-                    Contact Us
+                <SidebarLink to ='message' onClick={toggle}>
+                    Message Us
                 </SidebarLink>
             </SidebarMenu>
         </SidebarWrapper>

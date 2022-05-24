@@ -6,10 +6,7 @@ import {
     MobileIcon,
     NavMenu,
     NavItem,
-    NavLinks,
-    Dropdown,
-    DropdownContent,
-    DropdownA } from './NavbarElements'
+    NavLinks,} from './NavbarElements'
 import { FaBars } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll'
@@ -59,14 +56,9 @@ const Navbar = ({toggle}) => {
                             >RSVP</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='registry'
+                            <NavLinks to='message'
                             smooth={true} duration={500} spy={true} exact='true' offset={-80}
-                            >Wedding Registry</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to='contact'
-                            smooth={true} duration={500} spy={true} exact='true' offset={-80}
-                            >Contact Us</NavLinks>
+                            >Message Us</NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>

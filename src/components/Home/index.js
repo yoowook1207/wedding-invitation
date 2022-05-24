@@ -1,5 +1,5 @@
 import React from 'react'
-import { HomeContainer, HomeContent, HomeWrapper, Title } from './HomeElements'
+import { HomeContainer, HomeContent, Title } from './HomeElements'
 
 const Home = () => {
   return (

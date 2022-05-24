@@ -5,5 +5,5 @@ export const StoryContainer = styled.div `
     display: flex;
     justify-content: center;
     align-items: center;
-    background: yellowgreen;
+    background: #fff;
 `
