@@ -35,3 +35,18 @@ export const Title = styled.h1 `
     }
 `
 
+export const HomeP = styled.p `
+    margin-top: 0;
+    color: gray;
+    font-size: 32px;
+    text-align: center;
+    max-width: 600px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 28px;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 24px;
+    }
+`

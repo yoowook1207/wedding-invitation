@@ -1,5 +1,5 @@
 import React from 'react'
-import { HomeContainer, HomeContent, HomeWrapper, Title } from './HomeElements'
+import { HomeContainer, HomeContent, HomeP, Title } from './HomeElements'
 
 const Home = () => {
   return (
@@ -9,6 +9,9 @@ const Home = () => {
           <Title>
             We are getting married
           </Title>
+          <HomeP>
+            08.05.2022
+          </HomeP>
         </HomeContent>
       </HomeContainer>
     </>

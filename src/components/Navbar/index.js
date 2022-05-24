@@ -6,10 +6,7 @@ import {
     MobileIcon,
     NavMenu,
     NavItem,
-    NavLinks,
-    Dropdown,
-    DropdownContent,
-    DropdownA } from './NavbarElements'
+    NavLinks, } from './NavbarElements'
 import { FaBars } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll'
