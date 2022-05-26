@@ -5,5 +5,5 @@ export const GalleryContainer = styled.div `
     display: flex;
     justify-content: center;
     align-items: center;
-    background: beige;
+    background: #ffedd9;
 `
