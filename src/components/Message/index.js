@@ -4,7 +4,7 @@ import { MessageContainer } from './MessageElements'
 const Message = () => {
   return (
     <>
-        <MessageContainer>
+        <MessageContainer id="message">
           
         </MessageContainer>
     </>

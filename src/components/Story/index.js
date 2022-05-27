@@ -7,7 +7,7 @@ const Story = () => {
 
   return (
     <>
-        <StoryContainer>
+        <StoryContainer id="our-story">
           <StoryContent>
             <StoryTitle>
               <OurStoryTitle>

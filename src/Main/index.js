@@ -18,7 +18,7 @@ const Main = () => {
       <>
         <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
-        <Home/>
+        <Home />
         <Story/>
         <Gallery/>
         <RSVP/>

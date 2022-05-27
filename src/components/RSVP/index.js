@@ -4,7 +4,7 @@ import { RSVPContainer } from './RSVPElements'
 const RSVP = () => {
   return (
     <>
-        <RSVPContainer>
+        <RSVPContainer id = "rsvp">
 
         </RSVPContainer>
     </>

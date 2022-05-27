@@ -4,7 +4,6 @@ import { AiOutlineArrowDown } from "react-icons/ai"
 
 const Home = () => {
 
-  
   return (
     <>
       <HomeContainer>
