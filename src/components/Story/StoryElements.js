@@ -22,6 +22,13 @@ export const StoryContent = styled.div `
     border: 3px solid #FFE5B4;
     padding: 20px;
     border-radius: 10px;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 0;
+    }
 `
 
 export const StoryTitle = styled.div `
@@ -29,6 +36,10 @@ export const StoryTitle = styled.div `
     display: flex;
     justify-content: center;
     height: fit-content;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
 `
 
 export const StoryBox = styled.div `
@@ -38,12 +49,23 @@ export const StoryBox = styled.div `
     display: flex;
     justify-content: center;
     padding-top: 40px;
+
+        
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        padding-top: 0;
+
+    }
 `
 
 export const ShoesContainer = styled.div `
     display: flex;
     grid-area: shoes;
     justify-content: center;
+        
+    @media screen and (max-width: 768px) {
+        display:none;
+    }
 `
 
 export const Shoes = styled.img `
@@ -54,6 +76,10 @@ export const HandsContainer = styled.div `
     display: flex;
     grid-area: hands;
     justify-content: center;
+        
+    @media screen and (max-width: 768px) {
+        display:none;
+    }
 `
 
 export const Hands = styled.img `
@@ -71,4 +97,9 @@ export const StoryMessage = styled.p `
     font-family: 'PT Serif', serif;
     font-size: 20px;
     font-weight: 300;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        font-size: 16px;
+    }
 `
