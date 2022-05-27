@@ -91,6 +91,10 @@ export const OurStoryTitle = styled.h1 `
     font-size: 72px;
     font-weight: 400;
     margin: 10px 0 0 0;
+
+    @media screen and (max-width: 768px) {
+        font-size: 48px;
+    }
 `
 
 export const StoryMessage = styled.p `
@@ -100,6 +104,6 @@ export const StoryMessage = styled.p `
 
     @media screen and (max-width: 768px) {
         width: 100%;
-        font-size: 16px;
+        font-size: 13px;
     }
 `

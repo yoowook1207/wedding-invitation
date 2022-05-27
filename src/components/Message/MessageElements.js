@@ -38,11 +38,11 @@ export const ContactForm = styled.form `
     font-family: 'Playfair Display', serif;
 
     @media screen and (max-width:768px) {
-        width: 500px;
+        max-width: 500px;
     }
 
     @media screen and (max-width:540px) {
-        width: 380px;
+        width: 350px;
     }
 `
 

@@ -11,6 +11,10 @@ export const GalleryContainer = styled.div `
 export const GalleryWrapper = styled.div `
     padding-top: 80px;
     padding-bottom: 20px;
+
+    @media screen and (max-width: 768px) {
+    padding: 5px;
+    }
 `
 
 export const GalleryTitle = styled.h1 `
@@ -18,6 +22,12 @@ export const GalleryTitle = styled.h1 `
     font-size: 72px;
     font-weight: 400;
     text-align: center;
+
+    @media screen and (max-width: 768px) {
+        font-size: 48px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
 `
 
 export const GalleryContents = styled.div `

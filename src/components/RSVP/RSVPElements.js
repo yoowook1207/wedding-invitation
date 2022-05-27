@@ -28,6 +28,10 @@ export const TitleHolder = styled.div `
     padding: 50px 0 50px 0;
     margin-bottom: 15px;
     width: 100%;
+
+    @media screen and (max-width: 768px) {
+        padding: 20px 0 20px 0;
+    }
 `
 
 export const RSVPTitle = styled.h1 `
@@ -37,6 +41,10 @@ export const RSVPTitle = styled.h1 `
     margin: 10px 0 20px 0;
     text-align: center;
     color: white;
+
+    @media screen and (max-width: 768px) {
+        font-size: 48px;
+    }
 `
 
 export const RSVPForm =styled.form `
@@ -62,6 +70,10 @@ export const AttendingLabel = styled.label `
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+
+    @media screen and (max-width: 768px) {
+        font-size: 15px;
+    }
 `
 
 export const Attending = styled.input `
@@ -78,6 +90,10 @@ export const Attending = styled.input `
 export const RSVPLabels = styled.label `
     margin-bottom: 10px;
     display: block;
+
+    @media screen and (max-width: 768px) {
+        font-size: 12px;
+    }
 `
 
 export const RSVPInputs = styled.input `
@@ -86,6 +102,11 @@ export const RSVPInputs = styled.input `
     border: 1px solid #ccc;
     border-radius: 3px;
     padding: 12px;
+
+    @media screen and (max-width: 768px) {
+    padding: 5px;
+    margin-bottom: 5px;
+    }
 `
 
 export const SubmitButton = styled.button `
@@ -98,4 +119,9 @@ export const SubmitButton = styled.button `
   border-radius: 3px;
   cursor: pointer;
   font-size: 17px;
+  
+  @media screen and (max-width: 768px) {
+    padding: 5px;
+    margin-bottom: 5px;
+    }
 `
