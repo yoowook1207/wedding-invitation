@@ -22,18 +22,20 @@ export const ContactWrapper = styled.div `
 export const ContactH1 = styled.h1 `
     font-size: 48px;
     color: #000;
+    font-family: 'Playfair Display', serif;
 `
 
 export const Colored = styled.span `
-    color: #4D7C8A;
+    color: #FFB164;
     font-size: 48px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
 `
 
 export const ContactForm = styled.form `
     border: 2px solid #000;
     width: 700px;
     padding: 10px;
+    font-family: 'Playfair Display', serif;
 
     @media screen and (max-width:768px) {
         width: 500px;
@@ -79,11 +81,11 @@ export const TextInput = styled.textarea `
 
 export const ContactButton =styled.input `
     border-radius: 50px;
-    background: #4D7C8A;
+    background: #FFB164;
     white-space: nowrap;
     padding: 12px 30px;
     color: #F7ECE1;
-    font-size: 16px;
+    font-size: 18px;
     outline: none;
     border: none;
     cursor: pointer;
